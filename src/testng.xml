@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Sample POM Automation Suite" verbose="10">
+
+    <test name="DRF Pages"   preserve-order="true">
+        <classes>
+            <class name="com.drf.qa.testcases.NonLoggedUserFlowTest"/>
+            <class name="com.drf.qa.testcases.HandicappingPageTest"/>
+            <class name="com.drf.qa.testcases.NewsInfoPageTest"/>
+        </classes>
+    </test>
+</suite>
+
